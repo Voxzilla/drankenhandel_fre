@@ -20,7 +20,7 @@ wave = 'wave4' # AANPASSEN: welke wave
 data = f"data/sav_{wave}.sav"  # Dynamically construct the file path
 df_respondent, meta_respondent =  pyreadstat.read_sav(data) 
 build_directory = "build" # AANPASSEN: de naam van de map waarin je alle excel files wilt krijgen (stap 3)
-file_path = f"df_{wave}_draaitabel"
+file_path = f"build/df_{wave}_draaitabel"
 
 
 ############################################################################################################################################
